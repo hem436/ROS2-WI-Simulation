@@ -1,0 +1,24 @@
+running develop
+Removing /home/hem436/Documents/ros2_ws/install/warehouse_inspection/lib/python3.10/site-packages/warehouse-inspection.egg-link (link to .)
+running egg_info
+writing ../../build/warehouse_inspection/warehouse_inspection.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_inspection/warehouse_inspection.egg-info/dependency_links.txt
+writing entry points to ../../build/warehouse_inspection/warehouse_inspection.egg-info/entry_points.txt
+writing requirements to ../../build/warehouse_inspection/warehouse_inspection.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_inspection/warehouse_inspection.egg-info/top_level.txt
+reading manifest file '../../build/warehouse_inspection/warehouse_inspection.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_inspection/warehouse_inspection.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/hem436/Documents/ros2_ws/install/warehouse_inspection/lib/python3.10/site-packages/warehouse_inspection
+copying /home/hem436/Documents/ros2_ws/build/warehouse_inspection/build/lib/warehouse_inspection/__init__.py -> /home/hem436/Documents/ros2_ws/install/warehouse_inspection/lib/python3.10/site-packages/warehouse_inspection
+byte-compiling /home/hem436/Documents/ros2_ws/install/warehouse_inspection/lib/python3.10/site-packages/warehouse_inspection/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/warehouse_inspection -> /home/hem436/Documents/ros2_ws/install/warehouse_inspection/share/ament_index/resource_index/packages
+copying package.xml -> /home/hem436/Documents/ros2_ws/install/warehouse_inspection/share/warehouse_inspection
+running install_egg_info
+Copying ../../build/warehouse_inspection/warehouse_inspection.egg-info to /home/hem436/Documents/ros2_ws/install/warehouse_inspection/lib/python3.10/site-packages/warehouse_inspection-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/hem436/Documents/ros2_ws/build/warehouse_inspection/install.log'

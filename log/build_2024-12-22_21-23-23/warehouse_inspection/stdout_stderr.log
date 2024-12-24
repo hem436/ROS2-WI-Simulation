@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing warehouse_inspection.egg-info/PKG-INFO
+writing dependency_links to warehouse_inspection.egg-info/dependency_links.txt
+writing entry points to warehouse_inspection.egg-info/entry_points.txt
+writing requirements to warehouse_inspection.egg-info/requires.txt
+writing top-level names to warehouse_inspection.egg-info/top_level.txt
+reading manifest file 'warehouse_inspection.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_inspection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hem436/Documents/ros2_ws/install/warehouse_inspection/lib/python3.10/site-packages/warehouse-inspection.egg-link (link to .)
+
+Installed /home/hem436/Documents/ros2_ws/build/warehouse_inspection
+running symlink_data
+symbolically linking /home/hem436/Documents/ros2_ws/build/warehouse_inspection/resource/warehouse_inspection -> /home/hem436/Documents/ros2_ws/install/warehouse_inspection/share/ament_index/resource_index/packages
+symbolically linking /home/hem436/Documents/ros2_ws/build/warehouse_inspection/package.xml -> /home/hem436/Documents/ros2_ws/install/warehouse_inspection/share/warehouse_inspection

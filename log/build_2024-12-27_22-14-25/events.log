@@ -1,0 +1,391 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (aws_robomaker_small_warehouse_world) JobQueued: {'identifier': 'aws_robomaker_small_warehouse_world', 'dependencies': OrderedDict()}
+[0.000421] (object_detection) JobQueued: {'identifier': 'object_detection', 'dependencies': OrderedDict()}
+[0.000724] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000775] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.000828] (aws_robomaker_small_warehouse_world) JobStarted: {'identifier': 'aws_robomaker_small_warehouse_world'}
+[0.008533] (object_detection) JobStarted: {'identifier': 'object_detection'}
+[0.015949] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.022911] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.030447] (aws_robomaker_small_warehouse_world) JobProgress: {'identifier': 'aws_robomaker_small_warehouse_world', 'progress': 'cmake'}
+[0.031274] (aws_robomaker_small_warehouse_world) Command: {'cmd': ['/usr/bin/cmake', '/home/hem436/Documents/ros2_ws/src/aws-robomaker-small-warehouse-world', '-DCMAKE_INSTALL_PREFIX=/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world'], 'cwd': '/home/hem436/Documents/ros2_ws/build/aws_robomaker_small_warehouse_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PGPORT', '5432'), ('LANGUAGE', 'en_GB:en'), ('USER', 'hem436'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hem436'), ('OLDPWD', '/home/hem436'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('SYSTEMD_EXEC_PID', '2684'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hem436/Documents/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hem436'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hem436'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/mnt/522ADF4D2ADF2D2B/P_Software/anaconda3/bin:/home/hem436/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hem436-nitro-sun-an515-42:@/tmp/.ICE-unix/2657,unix/hem436-nitro-sun-an515-42:/tmp/.ICE-unix/2657'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e61e10e5_4c99_4a00_952f_aec1707ec576'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YUSCZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.707'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/robot_bringup:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PGPASSWORD', '..  ..'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hem436/Documents/ros2_ws/build/aws_robomaker_small_warehouse_world'), ('TURTLEBOT3_MODEL', 'waffle'), ('PGHOST', 'localhost'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PGUSER', 'hem436'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/hem436/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hem436/Documents/ros2_ws/build/robot_bringup:/home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/hem436/Documents/ros2_ws/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[0.099116] (-) TimerEvent: {}
+[0.199540] (-) TimerEvent: {}
+[0.299978] (-) TimerEvent: {}
+[0.400440] (-) TimerEvent: {}
+[0.500978] (-) TimerEvent: {}
+[0.601450] (-) TimerEvent: {}
+[0.701916] (-) TimerEvent: {}
+[0.802426] (-) TimerEvent: {}
+[0.876307] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.877831] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.878240] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.878512] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.878839] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.878972] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.879098] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.879225] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.879360] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.879518] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.879646] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.879763] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.879880] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.879996] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.880531] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/hem436/Documents/ros2_ws/src/robot_controller', '-DCMAKE_INSTALL_PREFIX=/home/hem436/Documents/ros2_ws/install/robot_controller'], 'cwd': '/home/hem436/Documents/ros2_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PGPORT', '5432'), ('LANGUAGE', 'en_GB:en'), ('USER', 'hem436'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hem436'), ('OLDPWD', '/home/hem436'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('SYSTEMD_EXEC_PID', '2684'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hem436/Documents/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hem436'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hem436'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/mnt/522ADF4D2ADF2D2B/P_Software/anaconda3/bin:/home/hem436/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hem436-nitro-sun-an515-42:@/tmp/.ICE-unix/2657,unix/hem436-nitro-sun-an515-42:/tmp/.ICE-unix/2657'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e61e10e5_4c99_4a00_952f_aec1707ec576'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YUSCZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.707'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/robot_bringup:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PGPASSWORD', '..  ..'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hem436/Documents/ros2_ws/build/robot_controller'), ('TURTLEBOT3_MODEL', 'waffle'), ('PGHOST', 'localhost'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PGUSER', 'hem436'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/hem436/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hem436/Documents/ros2_ws/build/robot_bringup:/home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world')]), 'shell': False}
+[0.902537] (-) TimerEvent: {}
+[0.990950] (robot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.002649] (-) TimerEvent: {}
+[1.085072] (robot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.096607] (robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.102756] (-) TimerEvent: {}
+[1.203125] (-) TimerEvent: {}
+[1.217971] (robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.232019] (robot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.232461] (robot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.233107] (robot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.237533] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.303929] (-) TimerEvent: {}
+[1.385691] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.403630] (robot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.404000] (-) TimerEvent: {}
+[1.404272] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.405101] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.411207] (robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.504707] (-) TimerEvent: {}
+[1.516408] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.604847] (-) TimerEvent: {}
+[1.705257] (-) TimerEvent: {}
+[1.731264] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.805454] (-) TimerEvent: {}
+[1.831690] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.843948] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.860660] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.886917] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.907809] (-) TimerEvent: {}
+[1.924953] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.007933] (-) TimerEvent: {}
+[2.010594] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.016206] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.060727] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.076071] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.108077] (-) TimerEvent: {}
+[2.137496] (object_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/object_detection', 'build', '--build-base', '/home/hem436/Documents/ros2_ws/build/object_detection/build', 'install', '--record', '/home/hem436/Documents/ros2_ws/build/object_detection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hem436/Documents/ros2_ws/src/object_detection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PGPORT': '5432', 'LANGUAGE': 'en_GB:en', 'USER': 'hem436', 'LC_TIME': 'en_IN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hem436', 'OLDPWD': '/home/hem436', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_IN.UTF-8', 'SYSTEMD_EXEC_PID': '2684', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hem436/Documents/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hem436', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hem436', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/mnt/522ADF4D2ADF2D2B/P_Software/anaconda3/bin:/home/hem436/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hem436-nitro-sun-an515-42:@/tmp/.ICE-unix/2657,unix/hem436-nitro-sun-an515-42:/tmp/.ICE-unix/2657', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_IN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e61e10e5_4c99_4a00_952f_aec1707ec576', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_IN.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YUSCZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.707', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/robot_bringup:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_IN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'PGPASSWORD': '..  ..', 'LC_MEASUREMENT': 'en_IN.UTF-8', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_IDENTIFICATION': 'en_IN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hem436/Documents/ros2_ws/build/object_detection', 'TURTLEBOT3_MODEL': 'waffle', 'PGHOST': 'localhost', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PGUSER': 'hem436', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/hem436/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hem436/Documents/ros2_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages:/home/hem436/Documents/ros2_ws/build/robot_bringup:/home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_IN.UTF-8', 'LC_PAPER': 'en_IN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world'}, 'shell': False}
+[2.208204] (-) TimerEvent: {}
+[2.224914] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.225504] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.236748] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/hem436/Documents/ros2_ws/build/robot_bringup/build', 'install', '--record', '/home/hem436/Documents/ros2_ws/build/robot_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hem436/Documents/ros2_ws/src/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PGPORT': '5432', 'LANGUAGE': 'en_GB:en', 'USER': 'hem436', 'LC_TIME': 'en_IN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hem436', 'OLDPWD': '/home/hem436', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_IN.UTF-8', 'SYSTEMD_EXEC_PID': '2684', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hem436/Documents/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hem436', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hem436', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/mnt/522ADF4D2ADF2D2B/P_Software/anaconda3/bin:/home/hem436/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hem436-nitro-sun-an515-42:@/tmp/.ICE-unix/2657,unix/hem436-nitro-sun-an515-42:/tmp/.ICE-unix/2657', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_IN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e61e10e5_4c99_4a00_952f_aec1707ec576', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_IN.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YUSCZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.707', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/robot_bringup:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_IN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'PGPASSWORD': '..  ..', 'LC_MEASUREMENT': 'en_IN.UTF-8', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_IDENTIFICATION': 'en_IN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hem436/Documents/ros2_ws/build/robot_bringup', 'TURTLEBOT3_MODEL': 'waffle', 'PGHOST': 'localhost', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PGUSER': 'hem436', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/hem436/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hem436/Documents/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/home/hem436/Documents/ros2_ws/build/robot_bringup:/home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_IN.UTF-8', 'LC_PAPER': 'en_IN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hem436/Documents/ros2_ws/install/robot_controller:/home/hem436/Documents/ros2_ws/install/aws_robomaker_small_warehouse_world'}, 'shell': False}
+[2.308349] (-) TimerEvent: {}
+[2.402933] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.408397] (-) TimerEvent: {}
+[2.408704] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.435438] (robot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.508506] (-) TimerEvent: {}
+[2.581362] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.585587] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.608621] (-) TimerEvent: {}
+[2.626281] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.662441] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[2.662743] (robot_controller) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[2.662863] (robot_controller) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[2.662974] (robot_controller) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[2.663096] (robot_controller) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[2.663218] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.663355] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[2.663502] (robot_controller) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[2.663621] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[2.663741] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.663863] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.663982] (robot_controller) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.671146] (robot_controller) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.702363] (robot_controller) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.708894] (-) TimerEvent: {}
+[2.742241] (robot_bringup) StderrLine: {'line': b"/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.742576] (robot_bringup) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.809019] (-) TimerEvent: {}
+[2.862483] (object_detection) StdoutLine: {'line': b'running egg_info\n'}
+[2.899555] (object_detection) StdoutLine: {'line': b'creating ../../build/object_detection/object_detection.egg-info\n'}
+[2.899774] (object_detection) StdoutLine: {'line': b'writing ../../build/object_detection/object_detection.egg-info/PKG-INFO\n'}
+[2.900329] (object_detection) StdoutLine: {'line': b'writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt\n'}
+[2.900781] (object_detection) StdoutLine: {'line': b'writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt\n'}
+[2.901261] (object_detection) StdoutLine: {'line': b'writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt\n'}
+[2.902615] (object_detection) StdoutLine: {'line': b'writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt\n'}
+[2.902879] (object_detection) StdoutLine: {'line': b"writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'\n"}
+[2.903277] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.909122] (-) TimerEvent: {}
+[2.937690] (robot_controller) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.989339] (object_detection) StdoutLine: {'line': b"reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'\n"}
+[2.989719] (object_detection) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.989952] (object_detection) StderrLine: {'line': b'  File "/home/hem436/Documents/ros2_ws/src/object_detection/setup.py", line 5, in <module>\n'}
+[2.990247] (object_detection) StderrLine: {'line': b'    setup(\n'}
+[2.990394] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[2.990550] (object_detection) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[2.990638] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[2.990738] (object_detection) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[2.990838] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[2.990937] (object_detection) StderrLine: {'line': b'    dist.run_commands()\n'}
+[2.991034] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[2.991133] (object_detection) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[2.991230] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/dist.py", line 995, in run_command\n'}
+[2.991329] (object_detection) StderrLine: {'line': b'    super().run_command(command)\n'}
+[2.991505] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[2.991603] (object_detection) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[2.991687] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 313, in run\n'}
+[2.991873] (object_detection) StderrLine: {'line': b'    self.find_sources()\n'}
+[2.991964] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 321, in find_sources\n'}
+[2.992080] (object_detection) StderrLine: {'line': b'    mm.run()\n'}
+[2.992160] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run\n'}
+[2.992238] (object_detection) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[2.992316] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list\n'}
+[2.992444] (object_detection) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[2.992529] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[2.992609] (object_detection) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[2.992695] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[2.992776] (object_detection) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[2.992853] (object_detection) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[2.992930] (object_detection) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[2.993007] (object_detection) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[3.009229] (-) TimerEvent: {}
+[3.018032] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.030736] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[3.042292] (robot_controller) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[3.062827] (object_detection) CommandEnded: {'returncode': 1}
+[3.063526] (object_detection) JobEnded: {'identifier': 'object_detection', 'rc': 1}
+[3.068094] (robot_bringup) StdoutLine: {'line': b'creating ../../build/robot_bringup/robot_bringup.egg-info\n'}
+[3.068662] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[3.069615] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[3.070195] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[3.070465] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[3.071035] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.072576] (robot_controller) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.083569] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.109403] (-) TimerEvent: {}
+[3.156152] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.156479] (robot_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.156669] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/Documents/ros2_ws/src/robot_bringup/setup.py", line 6, in <module>\n'}
+[3.156778] (robot_bringup) StderrLine: {'line': b'    setup(\n'}
+[3.156875] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[3.156968] (robot_bringup) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[3.157091] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[3.157315] (robot_bringup) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[3.157581] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[3.157708] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[3.157936] (robot_bringup) StderrLine: {'line': b'    dist.run_commands()\n'}
+[3.158079] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[3.158177] (robot_bringup) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[3.158273] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/dist.py", line 995, in run_command\n'}
+[3.158394] (robot_bringup) StderrLine: {'line': b'    super().run_command(command)\n'}
+[3.158500] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[3.158599] (robot_bringup) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[3.158690] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 313, in run\n'}
+[3.158769] (robot_bringup) StderrLine: {'line': b'    self.find_sources()\n'}
+[3.158852] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 321, in find_sources\n'}
+[3.158942] (robot_bringup) StderrLine: {'line': b'    mm.run()\n'}
+[3.159057] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run\n'}
+[3.159164] (robot_bringup) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[3.159275] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list\n'}
+[3.159423] (robot_bringup) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[3.159516] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[3.159601] (robot_bringup) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[3.159709] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[3.159830] (robot_bringup) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[3.159953] (robot_bringup) StderrLine: {'line': b'  File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[3.160073] (robot_bringup) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[3.160155] (robot_bringup) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[3.195102] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.208446] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.209505] (-) TimerEvent: {}
+[3.221203] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 'SIGINT'}
+[3.223227] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.226095] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.226954] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[3.237139] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[3.265815] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[3.309645] (-) TimerEvent: {}
+[3.342617] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.365932] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.366674] (robot_controller) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[3.380936] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.395684] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.396020] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.398823] (robot_controller) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.409761] (-) TimerEvent: {}
+[3.410437] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.410758] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.411269] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.423072] (robot_controller) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.424977] (robot_controller) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.425571] (robot_controller) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[3.426992] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.427289] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.436727] (robot_controller) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[3.442073] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.442559] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.457916] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.458151] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.463625] (robot_controller) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[3.473622] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.509892] (-) TimerEvent: {}
+[3.542989] (robot_controller) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.563381] (robot_controller) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.576601] (robot_controller) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.589471] (robot_controller) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.589742] (robot_controller) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.599465] (robot_controller) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.599824] (robot_controller) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.609994] (-) TimerEvent: {}
+[3.611905] (robot_controller) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.612169] (robot_controller) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.624401] (robot_controller) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.624664] (robot_controller) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.637546] (robot_controller) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.637810] (robot_controller) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.650485] (robot_controller) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.710113] (-) TimerEvent: {}
+[3.778611] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.782551] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.783249] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.810290] (-) TimerEvent: {}
+[3.823502] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.856799] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.869435] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.904650] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.910424] (-) TimerEvent: {}
+[3.916443] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.920438] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.921359] (robot_controller) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.955849] (robot_controller) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.980355] (robot_controller) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.988559] (robot_controller) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[4.004404] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[4.010537] (-) TimerEvent: {}
+[4.013632] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.017538] (robot_controller) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[4.046699] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[4.099077] (robot_controller) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[4.110692] (robot_controller) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.110914] (-) TimerEvent: {}
+[4.126263] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[4.131037] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.131852] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[4.142079] (robot_controller) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[4.170019] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.179561] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.208352] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[4.211044] (-) TimerEvent: {}
+[4.216751] (robot_controller) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[4.221204] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.221876] (robot_controller) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[4.260747] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.271633] (robot_controller) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.288032] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.293260] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.294232] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.294648] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.296488] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.298628] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.300949] (robot_controller) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[4.311158] (-) TimerEvent: {}
+[4.322582] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[4.323586] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.329093] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.330134] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.330919] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.336261] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.336898] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.384403] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.388773] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.389579] (robot_controller) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.390011] (robot_controller) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.392089] (robot_controller) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.396312] (robot_controller) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.411302] (-) TimerEvent: {}
+[4.418487] (robot_controller) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[4.419320] (robot_controller) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.423550] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.424435] (robot_controller) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.425036] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.429959] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.430771] (robot_controller) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.511444] (-) TimerEvent: {}
+[4.517047] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[4.535898] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.565622] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.611560] (-) TimerEvent: {}
+[4.613385] (robot_controller) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[4.628277] (robot_controller) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.652267] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.656633] (robot_controller) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.662682] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.694023] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.711689] (-) TimerEvent: {}
+[4.738134] (robot_controller) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.750176] (robot_controller) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.779775] (robot_controller) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.781801] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.782872] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.783800] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.784709] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.792403] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.792867] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.811820] (-) TimerEvent: {}
+[4.822283] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.855963] (robot_controller) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.856511] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.857071] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.857671] (robot_controller) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.865636] (robot_controller) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[4.868907] (robot_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.911957] (-) TimerEvent: {}
+[4.915902] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.923236] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.934630] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.951675] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.975680] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.012060] (-) TimerEvent: {}
+[5.030853] (robot_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.054356] (robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.106939] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.110838] (robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.112144] (-) TimerEvent: {}
+[5.114592] (robot_controller) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[5.124438] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Generating done\n'}
+[5.133377] (aws_robomaker_small_warehouse_world) StdoutLine: {'line': b'-- Build files have been written to: /home/hem436/Documents/ros2_ws/build/aws_robomaker_small_warehouse_world\n'}
+[5.141200] (robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[5.153934] (aws_robomaker_small_warehouse_world) JobEnded: {'identifier': 'aws_robomaker_small_warehouse_world', 'rc': 'SIGINT'}
+[5.154835] (robot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.204913] (robot_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.212728] (-) TimerEvent: {}
+[5.227066] (robot_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.312868] (-) TimerEvent: {}
+[5.404089] (robot_controller) StderrLine: {'line': b"Error parsing '/home/hem436/Documents/ros2_ws/src/robot_controller/package.xml':\n"}
+[5.412973] (-) TimerEvent: {}
+[5.454461] (robot_controller) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.454841] (robot_controller) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[5.454975] (robot_controller) StderrLine: {'line': b'    main()\n'}
+[5.455097] (robot_controller) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[5.455217] (robot_controller) StderrLine: {'line': b'    raise e\n'}
+[5.455348] (robot_controller) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[5.455481] (robot_controller) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[5.455600] (robot_controller) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[5.455746] (robot_controller) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[5.455861] (robot_controller) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[5.455975] (robot_controller) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[5.456089] (robot_controller) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/hem436/Documents/ros2_ws/src/robot_controller/package.xml':\n"}
+[5.456204] (robot_controller) StderrLine: {'line': b'Package version ".0.0.0" does not follow version conventions\n'}
+[5.484926] (robot_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.485509] (robot_controller) StdoutLine: {'line': b'See also "/home/hem436/Documents/ros2_ws/build/robot_controller/CMakeFiles/CMakeOutput.log".\n'}
+[5.485778] (robot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[5.486026] (robot_controller) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[5.486257] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[5.486519] (robot_controller) StderrLine: {'line': b'  /home/hem436/Documents/ros2_ws/src/robot_controller/package.xml\n'}
+[5.486750] (robot_controller) StderrLine: {'line': b'  /home/hem436/Documents/ros2_ws/build/robot_controller/ament_cmake_core/package.cmake)\n'}
+[5.487009] (robot_controller) StderrLine: {'line': b'  returned error code 1\n'}
+[5.487236] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.487475] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[5.487640] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[5.487795] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:90 (ament_package)\n'}
+[5.487948] (robot_controller) StderrLine: {'line': b'\n'}
+[5.488103] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[5.502877] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 'SIGINT'}
+[5.513187] (-) TimerEvent: {}
+[5.514514] (-) EventReactorShutdown: {}

@@ -1,0 +1,41 @@
+[2.133s] Invoking command in '/home/hem436/Documents/ros2_ws/src/object_detection': PYTHONPATH=/home/hem436/Documents/ros2_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/hem436/Documents/ros2_ws/build/object_detection/build install --record /home/hem436/Documents/ros2_ws/build/object_detection/install.log --single-version-externally-managed install_data
+[2.854s] running egg_info
+[2.891s] creating ../../build/object_detection/object_detection.egg-info
+[2.891s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[2.892s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[2.892s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[2.892s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[2.894s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[2.894s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.981s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.981s] Traceback (most recent call last):
+[2.981s]   File "/home/hem436/Documents/ros2_ws/src/object_detection/setup.py", line 5, in <module>
+[2.981s]     setup(
+[2.982s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.982s]     return distutils.core.setup(**attrs)
+[2.982s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup
+[2.982s]     return run_commands(dist)
+[2.982s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+[2.982s]     dist.run_commands()
+[2.982s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+[2.982s]     self.run_command(cmd)
+[2.982s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/dist.py", line 995, in run_command
+[2.982s]     super().run_command(command)
+[2.983s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command
+[2.983s]     cmd_obj.run()
+[2.983s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 313, in run
+[2.983s]     self.find_sources()
+[2.983s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 321, in find_sources
+[2.983s]     mm.run()
+[2.983s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run
+[2.983s]     self.prune_file_list()
+[2.983s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[2.984s]     super().prune_file_list()
+[2.984s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[2.984s]     base_dir = self.distribution.get_fullname()
+[2.984s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[2.984s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.984s]   File "/home/hem436/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[2.984s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.984s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[3.054s] Invoked command in '/home/hem436/Documents/ros2_ws/src/object_detection' returned '1': PYTHONPATH=/home/hem436/Documents/ros2_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/hem436/Documents/ros2_ws/build/object_detection/build install --record /home/hem436/Documents/ros2_ws/build/object_detection/install.log --single-version-externally-managed install_data

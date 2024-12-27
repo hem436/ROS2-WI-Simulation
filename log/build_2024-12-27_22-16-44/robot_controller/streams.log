@@ -1,0 +1,106 @@
+[0.426s] Invoking command in '/home/hem436/Documents/ros2_ws/build/robot_controller': /usr/bin/cmake /home/hem436/Documents/ros2_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/hem436/Documents/ros2_ws/install/robot_controller
+[0.445s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.681s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.681s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.681s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.681s]   problems in calling code that expects `find_package` result variables
+[0.682s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.682s] Call Stack (most recent call first):
+[0.682s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.682s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.682s]   CMakeLists.txt:23 (find_package)
+[0.682s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.682s] [0m
+[0.739s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.789s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.790s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.796s] -- Searching for dependencies of ignition-math6
+[0.798s] -- Looking for OGRE...
+[0.809s] -- Found Ogre Ghadamon (1.9.0)
+[0.809s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.821s] -- Looking for OGRE_Paging...
+[0.821s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.822s] -- Looking for OGRE_Terrain...
+[0.822s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.822s] -- Looking for OGRE_Property...
+[0.822s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.822s] -- Looking for OGRE_RTShaderSystem...
+[0.822s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.823s] -- Looking for OGRE_Volume...
+[0.823s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.823s] -- Looking for OGRE_Overlay...
+[0.823s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.052s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.052s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.053s] -- Searching for dependencies of ignition-transport8
+[1.086s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.106s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.117s] -- Checking for module 'libzmq >= 4'
+[1.154s] --   Found libzmq , version 4.3.4
+[1.275s] -- Checking for module 'uuid'
+[1.309s] --   Found uuid, version 2.37.2
+[1.410s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.410s] -- Searching for dependencies of ignition-msgs5
+[1.447s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.460s] -- Checking for module 'tinyxml2'
+[1.495s] --   Found tinyxml2, version 9.0.0
+[1.595s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.596s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.596s] -- Searching for dependencies of ignition-common3
+[1.597s] -- Looking for dlfcn.h - found
+[1.597s] -- Looking for libdl - found
+[1.618s] -- Searching for <ignition-common3> component [graphics]
+[1.619s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.619s] -- Searching for dependencies of ignition-common3-graphics
+[1.619s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.621s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.621s] -- Searching for dependencies of ignition-fuel_tools4
+[1.695s] -- Checking for module 'jsoncpp'
+[1.728s] --   Found jsoncpp, version 1.9.5
+[1.820s] -- Checking for module 'libzip'
+[1.848s] --   Found libzip, version 1.7.3
+[1.935s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.935s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.936s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.938s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[1.938s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.964s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.969s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.976s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.051s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.070s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.102s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.104s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.126s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.178s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.197s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[2.359s] Error parsing '/home/hem436/Documents/ros2_ws/src/robot_controller/package.xml':
+[2.407s] Traceback (most recent call last):
+[2.407s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.407s]     main()
+[2.407s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.407s]     raise e
+[2.407s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.408s]     package = parse_package_string(
+[2.408s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[2.408s]     pkg.validate(warnings=warnings)
+[2.408s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[2.408s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[2.408s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/hem436/Documents/ros2_ws/src/robot_controller/package.xml':
+[2.408s] Package version ".0.0.0" does not follow version conventions
+[2.434s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.434s]   execute_process(/usr/bin/python3
+[2.434s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.434s]   /home/hem436/Documents/ros2_ws/src/robot_controller/package.xml
+[2.434s]   /home/hem436/Documents/ros2_ws/build/robot_controller/ament_cmake_core/package.cmake)
+[2.434s]   returned error code 1
+[2.434s] Call Stack (most recent call first):
+[2.434s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.435s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[2.435s]   CMakeLists.txt:90 (ament_package)
+[2.435s] 
+[2.435s] [0m
+[2.435s] -- Configuring incomplete, errors occurred!
+[2.435s] See also "/home/hem436/Documents/ros2_ws/build/robot_controller/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,20 @@
+[1.967s] Invoking command in '/home/hem436/Documents/ros2_ws/build/object_detection': PS1=(.env) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hem436/Documents/ros2_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hem436/Documents/ros2_ws/build/object_detection/build --no-deps symlink_data --force
+[2.604s] running develop
+[3.135s] running egg_info
+[3.178s] writing object_detection.egg-info/PKG-INFO
+[3.178s] writing dependency_links to object_detection.egg-info/dependency_links.txt
+[3.179s] writing entry points to object_detection.egg-info/entry_points.txt
+[3.179s] writing requirements to object_detection.egg-info/requires.txt
+[3.180s] writing top-level names to object_detection.egg-info/top_level.txt
+[3.288s] reading manifest file 'object_detection.egg-info/SOURCES.txt'
+[3.294s] writing manifest file 'object_detection.egg-info/SOURCES.txt'
+[3.352s] running build_ext
+[3.352s] Creating /home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)
+[3.356s] Installing object_detection script to /home/hem436/Documents/ros2_ws/install/object_detection/lib/object_detection
+[3.358s] 
+[3.358s] Installed /home/hem436/Documents/ros2_ws/build/object_detection
+[3.359s] running symlink_data
+[3.359s] symbolically linking /home/hem436/Documents/ros2_ws/build/object_detection/resource/object_detection -> /home/hem436/Documents/ros2_ws/install/object_detection/share/ament_index/resource_index/packages
+[3.359s] symbolically linking /home/hem436/Documents/ros2_ws/build/object_detection/package.xml -> /home/hem436/Documents/ros2_ws/install/object_detection/share/object_detection
+[3.359s] symbolically linking /home/hem436/Documents/ros2_ws/build/object_detection/detections/detected_objects.log -> /home/hem436/Documents/ros2_ws/install/object_detection/share/object_detection
+[3.467s] Invoked command in '/home/hem436/Documents/ros2_ws/build/object_detection' returned '0': PS1=(.env) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hem436/Documents/ros2_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hem436/Documents/ros2_ws/build/object_detection/build --no-deps symlink_data --force

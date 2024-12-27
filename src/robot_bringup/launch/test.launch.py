@@ -46,12 +46,13 @@ def generate_launch_description():
             os.path.join(get_package_share_directory("slam_toolbox"),'launch', 'online_sync_launch.py')
         )
     )
+    print("ksdjfkas",get_package_share_directory("turtlebot3_navigation2"),os.path.join(get_package_share_directory("turtlebot3_navigation2"),'launch', 'navigation2.launch.py'))
 
-    navigation_cmd = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory("turtlebot3_navigation2"),'launch', 'navigation2_launch.py')
-        )
-    )
+    # navigation_cmd = IncludeLaunchDescription(
+    #     PythonLaunchDescriptionSource(
+    #         os.path.join(get_package_share_directory("turtlebot3_navigation2"),'launch', 'navigation2.launch.py')
+    #     )
+    # )
 
     ld = LaunchDescription()
 
@@ -60,6 +61,6 @@ def generate_launch_description():
     ld.add_action(robot_state_publisher_cmd)
     ld.add_action(spawn_turtlebot_cmd)
     ld.add_action(slam_cmd)
-    ld.add_action(navigation_cmd)
+    # ld.add_action(navigation_cmd)
 
     return ld

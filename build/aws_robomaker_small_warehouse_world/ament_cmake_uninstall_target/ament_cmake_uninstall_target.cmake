@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/hem436/Documents/ros2_ws/build/aws_robomaker_small_warehouse_world/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

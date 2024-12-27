@@ -1,7 +1,1 @@
-image: map.pgm
-resolution: 0.020000
-origin: [-10.000000, -20.240000, 0.000000]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196
-
+/home/hem436/Documents/ros2_ws/src/aws-robomaker-small-warehouse-world/maps/002/map.yaml

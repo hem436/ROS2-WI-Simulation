@@ -1,2 +1,1 @@
-prepend-non-duplicate;GAZEBO_MODEL_PATH;share/aws_robomaker_small_warehouse_world/models
-prepend-non-duplicate;GAZEBO_MODEL_PATH;share/aws_robomaker_small_warehouse_world/worlds
+/home/hem436/Documents/ros2_ws/build/aws_robomaker_small_warehouse_world/ament_cmake_environment_hooks/aws_robomaker_small_warehouse_world.dsv

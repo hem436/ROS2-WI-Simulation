@@ -1,0 +1,26 @@
+[2.192s] Invoking command in '/home/hem436/Documents/ros2_ws/src/object_detection': PS1=(.env) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hem436/Documents/ros2_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/hem436/Documents/ros2_ws/build/object_detection/build install --record /home/hem436/Documents/ros2_ws/build/object_detection/install.log --single-version-externally-managed install_data
+[2.651s] running egg_info
+[2.682s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[2.683s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[2.683s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[2.684s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[2.684s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[2.751s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.753s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.753s] running build
+[2.753s] running build_py
+[2.753s] copying object_detection/__init__.py -> /home/hem436/Documents/ros2_ws/build/object_detection/build/lib/object_detection
+[2.756s] copying object_detection/yolo_detection.py -> /home/hem436/Documents/ros2_ws/build/object_detection/build/lib/object_detection
+[2.757s] running install
+[2.766s] running install_lib
+[2.800s] running install_data
+[2.800s] copying resource/object_detection -> /home/hem436/Documents/ros2_ws/install/object_detection/share/ament_index/resource_index/packages
+[2.800s] copying package.xml -> /home/hem436/Documents/ros2_ws/install/object_detection/share/object_detection
+[2.801s] copying detections/detected_objects.log -> /home/hem436/Documents/ros2_ws/install/object_detection/share/object_detection
+[2.801s] running install_egg_info
+[2.836s] removing '/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.836s] Copying ../../build/object_detection/object_detection.egg-info to /home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[2.837s] running install_scripts
+[3.118s] Installing object_detection script to /home/hem436/Documents/ros2_ws/install/object_detection/lib/object_detection
+[3.119s] writing list of installed files to '/home/hem436/Documents/ros2_ws/build/object_detection/install.log'
+[3.194s] Invoked command in '/home/hem436/Documents/ros2_ws/src/object_detection' returned '0': PS1=(.env) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hem436/Documents/ros2_ws/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/hem436/Documents/ros2_ws/build/object_detection/build install --record /home/hem436/Documents/ros2_ws/build/object_detection/install.log --single-version-externally-managed install_data

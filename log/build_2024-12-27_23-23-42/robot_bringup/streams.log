@@ -1,0 +1,18 @@
+[1.896s] Invoking command in '/home/hem436/Documents/ros2_ws/build/robot_bringup': PS1=(.env) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hem436/Documents/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hem436/Documents/ros2_ws/build/robot_bringup/build --no-deps symlink_data --force
+[2.570s] running develop
+[3.051s] running egg_info
+[3.083s] writing robot_bringup.egg-info/PKG-INFO
+[3.086s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[3.086s] writing requirements to robot_bringup.egg-info/requires.txt
+[3.086s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[3.176s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[3.178s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[3.219s] running build_ext
+[3.220s] Creating /home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[3.221s] 
+[3.221s] Installed /home/hem436/Documents/ros2_ws/build/robot_bringup
+[3.221s] running symlink_data
+[3.222s] symbolically linking /home/hem436/Documents/ros2_ws/build/robot_bringup/resource/robot_bringup -> /home/hem436/Documents/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[3.222s] symbolically linking /home/hem436/Documents/ros2_ws/build/robot_bringup/package.xml -> /home/hem436/Documents/ros2_ws/install/robot_bringup/share/robot_bringup
+[3.222s] symbolically linking /home/hem436/Documents/ros2_ws/build/robot_bringup/launch/test.launch.py -> /home/hem436/Documents/ros2_ws/install/robot_bringup/share/robot_bringup/launch/
+[3.322s] Invoked command in '/home/hem436/Documents/ros2_ws/build/robot_bringup' returned '0': PS1=(.env) ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hem436/Documents/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hem436/Documents/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hem436/Documents/ros2_ws/build/robot_bringup/build --no-deps symlink_data --force

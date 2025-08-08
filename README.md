@@ -39,3 +39,5 @@ ros2 run nav2_map_server map_saver_cli -f ~/src/robot_bringup/map
 ### references to some resources used :
 aws small warehouse [https://github.com/aws-robotics/aws-robomaker-small-warehouse-world]
 turtlebot3 
+
+![alt text](image.png)
